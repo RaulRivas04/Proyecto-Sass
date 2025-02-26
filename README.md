@@ -18,7 +18,7 @@ Color Blanco de fondo:
 
 `$background-color: #f5f5f5;`
 
-`$colors: (`
+**`$colors: (`**
 
  ` primary: $primary-color,`
   
