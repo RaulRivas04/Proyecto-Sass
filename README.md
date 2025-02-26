@@ -4,9 +4,10 @@
 
 **Paleta de colores**
 =================
+=================
 
 
-<u>Azul principal:</u>
+Azul principal:
 
 `$primary-color: #3498db;`
 
