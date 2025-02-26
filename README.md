@@ -22,9 +22,11 @@ $colors: (
   background: $background-color
   );
 
+
 **Fuentes**
 1.	$font-family-primary: 'Arial, sans-serif';
 2.	$font-family-secondary: 'Georgia, serif';
+
 
 
 **Iconos**
@@ -32,7 +34,9 @@ Los iconos utilizados en el proyecto son de Font Awesome. Se incluyen en el arch
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
+
 **Elementos de Accesibilidad, Usabilidad y Experiencia de Usuario**
+
 **1.	Accesibilidad:**
 o	Uso de etiquetas aria-label para mejorar la accesibilidad de los botones de navegación.
 o	Uso de atributos alt en las imágenes para proporcionar descripciones alternativas.
@@ -63,30 +67,42 @@ o	Estilos para los botones primarios y secundarios, y estilos base para las tarj
 
 **5.	componentes/_categorias.scss:**
 o	Estilos para la sección de categorías y sus elementos.
+
 **6.	componentes/_heading.scss:**
 o	Estilos para los encabezados h1 y h2.
+
 **7.	componentes/_hero.scss:**
 o	Estilos para la sección hero, incluyendo el fondo y los elementos dentro de la sección.
+
 **8.	componentes/_logo.scss:**
 o	Estilos para el logo.
+
 **9.	componentes/_publicidad.scss:**
 o	Estilos para la sección de publicidad, incluyendo el contenedor de video y la transcripción.
+
 **10.	componentes/_resenas.scss:**
 o	Estilos para la sección de reseñas y sus elementos.
+
 **11.	layout/_footer.scss:**
 o	Estilos para el pie de página.
+
 **12.	layout/_gallery.scss:**
 o	Estilos para la galería y sus elementos.
+
 **13.	layout/_header.scss:**
 o	Estilos para el encabezado y la navegación.
+
 **14.	layout/_products.scss:**
 o	Estilos para la sección de productos y las tarjetas de producto.
+
 **15.	style.scss:**
 o	Archivo principal que importa todos los archivos SCSS y define estilos adicionales.
+
 
 **Descripción de Archivos JavaScript**
 **1.	proyecto.js:**
 o	Contiene scripts para la funcionalidad del menú hamburguesa, la animación de las secciones y para abrir más información en los botones de “Abrir más”.
+
 
 **Descripción de Archivos HTML**
 **1.	index.html:**
