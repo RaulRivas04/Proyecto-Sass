@@ -1,4 +1,6 @@
-<u>**Documentación Final**</u>
+**Documentación Final**
+=================
+
 
 **Paleta de colores**
 
