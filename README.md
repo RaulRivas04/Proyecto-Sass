@@ -2,30 +2,30 @@
 
 **Paleta de colores**
 
-``Azul principal:``
+Azul principal:
 
-$primary-color: #3498db;
+`$primary-color: #3498db;`
 
 Verde secundario:
 
-$secondary-color: #2ecc71;
+`$secondary-color: #2ecc71;`
 
 Rojo de acento:
 
-$accent-color: #e74c3c;
+`$accent-color: #e74c3c;`
 
 Color Blanco de fondo:
 
-$background-color: #f5f5f5;
+`$background-color: #f5f5f5;`
 
-$colors: (
+`$colors: (
   primary: $primary-color,
   secondary: $secondary-color,
   accent: $accent-color,
   white: #ffffff,
   black: #000000,
   background: $background-color
-  );
+  );`
 
 
 **Fuentes**
