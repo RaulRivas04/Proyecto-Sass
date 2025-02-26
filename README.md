@@ -48,14 +48,19 @@ o	Uso de colores contrastantes para mejorar la legibilidad.
 o	Secciones bien definidas y organizadas para facilitar la navegación.
 
 **Descripción de Archivos SCSS**
+
 **1.	_variables.scss:**
 o	Define las variables globales del proyecto, incluyendo colores, fuentes y tamaños.
+
 **2.	_mixin.scss:**
 o	Contiene mixins reutilizables para centrar elementos, estilos de botones, títulos de sección y la sección hero.
+
 **3.	_base.scss:**
 o	Estilos generales para el cuerpo y la navegación.
+
 **4.	componentes/_buttons.scss:**
 o	Estilos para los botones primarios y secundarios, y estilos base para las tarjetas.
+
 **5.	componentes/_categorias.scss:**
 o	Estilos para la sección de categorías y sus elementos.
 **6.	componentes/_heading.scss:**
