@@ -19,7 +19,7 @@ Color Blanco de fondo:
 `$background-color: #f5f5f5;`
 
 `$colors: (
-  `primary: $primary-color,`
+  primary: $primary-color,
   
   secondary: $secondary-color,
   
