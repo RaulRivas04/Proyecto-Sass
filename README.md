@@ -36,14 +36,17 @@ Color Blanco de fondo:
 
 
 **Fuentes**
+
 1.	$font-family-primary: 'Arial, sans-serif';
 3.	$font-family-secondary: 'Georgia, serif';
 
 
 
 **Iconos**
+
 Los iconos utilizados en el proyecto son de Font Awesome. Se incluyen en el archivo HTML principal:
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">`
 
 
 
@@ -112,6 +115,7 @@ o	Archivo principal que importa todos los archivos SCSS y define estilos adicion
 
 
 **Descripción de Archivos JavaScript**
+
 **1.	proyecto.js:**
 o	Contiene scripts para la funcionalidad del menú hamburguesa, la animación de las secciones y para abrir más información en los botones de “Abrir más”.
 
