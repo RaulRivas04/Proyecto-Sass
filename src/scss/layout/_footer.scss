@@ -1,0 +1,14 @@
+/// # Footer
+/// Estilos para el pie de página.
+///
+/// @group Footer
+footer {
+  background-color: get-color(primary);
+  padding: $spacing-unit * 2;
+  text-align: center;
+
+  p {
+    color: get-color(white);
+    margin: 0;
+  }
+}

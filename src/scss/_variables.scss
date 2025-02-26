@@ -1,0 +1,38 @@
+/// # Variables
+/// Definición de variables globales para el proyecto.
+///
+/// @group Variables
+
+// Definición de colores principales
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$accent-color: #e74c3c;
+$background-color: #f5f5f5;
+
+// Definición de familias de fuentes
+$font-family-primary: 'Arial, sans-serif';
+$font-family-secondary: 'Georgia, serif';
+
+// Definición de tamaños base
+$base-font-size: 16px;
+$spacing-unit: 8px;
+$header-height: 60px;
+
+// Mapa de colores
+$colors: (
+  primary: $primary-color,
+  secondary: $secondary-color,
+  accent: $accent-color,
+  white: #ffffff,
+  black: #000000,
+  background: $background-color
+);
+
+/// Función para obtener colores del mapa
+///
+/// @group Variables
+/// @param {String} $color-name - El nombre del color a obtener.
+/// @return {Color} - El valor del color correspondiente.
+@function get-color($color-name) {
+  @return map-get($colors, $color-name);
+}

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <title>¡Tu Casa de Ensueño!</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+            <span class="text">Alquiler de Casas de Lujos</span>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav aria-label="Main Navigation">
+            <ul class="nav-list">
+                <li><a href="#hero"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="#categorias"><i class="fas fa-list"></i> Categorías</a></li>
+                <li><a href="#destacadas"><i class="fas fa-star"></i> Casas Destacadas</a></li>
+                <li><a href="#resenas"><i class="fas fa-comments"></i> Reseñas</a></li>
+                <li><a href="#publicidad"><i class="fas fa-bullhorn"></i> Publicidad</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Hero -->
+    <section id="hero" class="hero text-center">
+        <h2>Bienvenido, aquí encontrarás tu casa de ensueño</h2>
+        <p>Explora nuestras categorías y encuentra la casa perfecta para ti.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <!-- Sección Categorias -->
+    <section id="categorias" class="text-center categorias">
+        <h2>Categorías</h2>
+        <ul class="categorias-list">
+            <li class="categoria-item">
+                <img src="img/campo/imagen2.jpg" alt="Campo">
+                <h3>Campo</h3>
+                <div class="categoria-overlay"></div>
+            </li>
+            <li class="categoria-item">
+                <img src="img/playa/imagen3.jpg" alt="Playa">
+                <h3>Playa</h3>
+                <div class="categoria-overlay"></div>
+            </li>
+            <li class="categoria-item">
+                <img src="img/ciudad/imagen4.jpg" alt="Ciudad">
+                <h3>Ciudad</h3>
+                <div class="categoria-overlay"></div>
+            </li>
+            <li class="categoria-item">
+                <img src="img//nieve/imagen2.jpg" alt="Nieve">
+                <h3>Nieve</h3>
+                <div class="categoria-overlay"></div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección Casas Destacadas -->
+    <section id="destacadas" class="products text-center">
+        <h2>Casas más destacadas</h2>
+        <div class="product-list">
+            <div class="product-card">
+                <img src="img/campo/imagen1.jpg" alt="Casa en el campo con jardín">
+                <div class="product-info">
+                    <h3>Casa en el Campo</h3>
+                    <p>Amplio jardín y vistas espectaculares al campo.</p>
+                    <button class="button ver-mas" data-id="1">Ver más</button>
+                    <div id="info-1" class="additional-info">
+                        <p><i class="fas fa-euro-sign"></i><strong>Precio:</strong> 300,000€</p>
+                        <p><i class="fas fa-ruler-combined"></i><strong>Metros cuadrados:</strong> 250 m²</p>
+                        <p><i class="fas fa-bed"></i><strong>Habitaciones:</strong> 4</p>
+                        <p><i class="fas fa-bath"></i><strong>Baños:</strong> 3</p>
+                        <p><i class="fas fa-star"></i><strong>Características:</strong> Jardín, Piscina, Garaje</p>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="img/ciudad/imagen1.jpg" alt="Casa en la ciudad">
+                <div class="product-info">
+                    <h3>Casa en la Ciudad</h3>
+                    <p>Ubicada en el corazón de la ciudad, con todas las comodidades urbanas.</p>
+                    <button class="button ver-mas" data-id="2">Ver más</button>
+                    <div id="info-2" class="additional-info">
+                        <p><i class="fas fa-euro-sign"></i><strong>Precio:</strong> 450,000€</p>
+                        <p><i class="fas fa-ruler-combined"></i><strong>Metros cuadrados:</strong> 180 m²</p>
+                        <p><i class="fas fa-bed"></i><strong>Habitaciones:</strong> 3</p>
+                        <p><i class="fas fa-bath"></i><strong>Baños:</strong> 2</p>
+                        <p><i class="fas fa-star"></i><strong>Características:</strong> Terraza, Gimnasio, Seguridad 24h</p>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="img/nieve/imagen1.jpg" alt="Casa en la nieve">
+                <div class="product-info">
+                    <h3>Casa en la Nieve</h3>
+                    <p>Perfecta para los amantes del invierno, rodeada de nieve y montañas.</p>
+                    <button class="button ver-mas" data-id="3">Ver más</button>
+                    <div id="info-3" class="additional-info">
+                        <p><i class="fas fa-euro-sign"></i><strong>Precio:</strong> 500,000€</p>
+                        <p><i class="fas fa-ruler-combined"></i><strong>Metros cuadrados:</strong> 300 m²</p>
+                        <p><i class="fas fa-bed"></i><strong>Habitaciones:</strong> 5</p>
+                        <p><i class="fas fa-bath"></i><strong>Baños:</strong> 4</p>
+                        <p><i class="fas fa-star"></i><strong>Características:</strong> Chimenea, Sauna, Vista a la montaña</p>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="img/playa/imagen1.jpg" alt="Casa en la playa">
+                <div class="product-info">
+                    <h3>Casa en la Playa</h3>
+                    <p>Ubicada en la playa, con vistas impresionantes al mar.</p>
+                    <button class="button ver-mas" data-id="4">Ver más</button>
+                    <div id="info-4" class="additional-info">
+                        <p><i class="fas fa-euro-sign"></i><strong>Precio:</strong> 600,000€</p>
+                        <p><i class="fas fa-ruler-combined"></i><strong>Metros cuadrados:</strong> 220 m²</p>
+                        <p><i class="fas fa-bed"></i><strong>Habitaciones:</strong> 4</p>
+                        <p><i class="fas fa-bath"></i><strong>Baños:</strong> 3</p>
+                        <p><i class="fas fa-star"></i><strong>Características:</strong> Acceso a la playa, Terraza, Piscina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="img/campo/imagen2.jpg" alt="Casa en el campo">
+                <div class="product-info">
+                    <h3>Casa Rústica en el Campo</h3>
+                    <p>Una casa rústica en el campo con todas las comodidades modernas.</p>
+                    <button class="button ver-mas" data-id="5">Ver más</button>
+                    <div id="info-5" class="additional-info">
+                        <p><i class="fas fa-euro-sign"></i><strong>Precio:</strong> 350,000€</p>
+                        <p><i class="fas fa-ruler-combined"></i><strong>Metros cuadrados:</strong> 200 m²</p>
+                        <p><i class="fas fa-bed"></i><strong>Habitaciones:</strong> 3</p>
+                        <p><i class="fas fa-bath"></i><strong>Baños:</strong> 2</p>
+                        <p><i class="fas fa-star"></i><strong>Características:</strong> Jardín, Huerto, Garaje</p>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="img/ciudad/imagen2.jpg" alt="Casa en la ciudad">
+                <div class="product-info">
+                    <h3>Casa Moderna en la Ciudad</h3>
+                    <p>Una casa moderna en la ciudad con acceso a todas las facilidades urbanas.</p>
+                    <button class="button ver-mas" data-id="6">Ver más</button>
+                    <div id="info-6" class="additional-info">
+                        <p><i class="fas fa-euro-sign"></i><strong>Precio:</strong> 400,000€</p>
+                        <p><i class="fas fa-ruler-combined"></i><strong>Metros cuadrados:</strong> 160 m²</p>
+                        <p><i class="fas fa-bed"></i><strong>Habitaciones:</strong> 3</p>
+                        <p><i class="fas fa-bath"></i><strong>Baños:</strong> 2</p>
+                        <p><i class="fas fa-star"></i><strong>Características:</strong> Terraza, Gimnasio, Seguridad 24h</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Reseñas -->
+    <section id="resenas" class="text-center resenas">
+        <h2>Reseñas</h2>
+        <div class="resena-list">
+            <div class="resena">
+                <img src="img/usuarios/user1.jpg" alt="Usuario 1" class="resena-img">
+                <div class="resena-content">
+                    <h3>Raúl Rivas</h3>
+                    <p class="resena-date">5 de Febrero, 2025</p>
+                    <p class="resena-text">"La experiencia de alquilar con esta empresa fue excelente. La casa estaba en perfectas condiciones y el proceso fue muy sencillo. Definitivamente lo recomendaría a otros."</p>
+                    <div class="resena-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="resena">
+                <img src="img/usuarios/user2.jpg" alt="Usuario 2" class="resena-img">
+                <div class="resena-content">
+                    <h3>María López</h3>
+                    <p class="resena-date">15 de Enero, 2025</p>
+                    <p class="resena-text">"Una experiencia maravillosa. La casa en la playa fue perfecta para nuestras vacaciones familiares. Muy recomendable."</p>
+                    <div class="resena-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="resena">
+                <img src="img/usuarios/user3.jpg" alt="Usuario 3" class="resena-img">
+                <div class="resena-content">
+                    <h3>Pablo Rodriguez</h3>
+                    <p class="resena-date">10 de Diciembre, 2024</p>
+                    <p class="resena-text">"El proceso de alquiler fue muy sencillo y la casa superó nuestras expectativas. Sin duda, una experiencia para repetir."</p>
+                    <div class="resena-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Publicidad -->
+    <section id="publicidad" class="text-center publicidad">
+        <h2>Publicidad</h2>
+        <p class="eslogan">¡Encuentra tu hogar perfecto con nosotros!</p>
+        <div class="video-container">
+            <video controls autoplay muted playsinline>
+                <source src="img/video.mp4" type="video/mp4">
+                <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+                Tu navegador no soporta el elemento de vídeo.
+            </video>
+        </div>
+        <div class="transcripcion-container">
+            <h3>Casa de ensueño</h3>
+            <div class="transcripcion-content">
+                <p class="transcripcion">
+                    Esta casa de ensueño cuenta con:
+                    <br><br>
+                    <i class="fas fa-check-circle"></i> Bienvenidos a esta espectacular casa de lujo.<br>
+                    <i class="fas fa-check-circle"></i> La entrada principal nos recibe con un hermoso jardín y una fuente central.<br>
+                    <i class="fas fa-check-circle"></i> Al ingresar, encontramos un amplio salón con ventanales que ofrecen vistas panorámicas.<br>
+                    <i class="fas fa-check-circle"></i> La cocina está equipada con electrodomésticos de última generación y acabados de alta calidad.<br>
+                    <i class="fas fa-check-circle"></i> El comedor, con capacidad para diez personas, es perfecto para cenas elegantes.<br>
+                    <i class="fas fa-check-circle"></i> La casa cuenta con cinco habitaciones, cada una con su propio baño en suite.<br>
+                    <i class="fas fa-check-circle"></i> La suite principal incluye un vestidor y un baño con jacuzzi.<br>
+                    <i class="fas fa-check-circle"></i> En el exterior, encontramos una piscina infinita y una zona de barbacoa.<br>
+                    <i class="fas fa-check-circle"></i> La casa también dispone de un gimnasio privado y una sala de cine.<br>
+                    <i class="fas fa-check-circle"></i> Todo esto acompañado de una suave música de fondo que realza la elegancia del lugar.<br>
+                </p>
+                <img src="img/Transcripción.png" alt="Transcripción" class="transcripcion-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center footer">
+        <p>&copy; 2025 Tu Casa de Ensueño. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="js/proyecto.js"></script>
+</body>
+
+</html>

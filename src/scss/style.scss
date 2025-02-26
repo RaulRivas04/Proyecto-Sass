@@ -1,0 +1,106 @@
+@import 'variables';
+@import 'mixin';
+@import 'base';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/gallery';
+@import 'layout/products';
+@import 'componentes/heading';
+@import 'componentes/logo';
+@import 'componentes/buttons';
+@import 'componentes/hero';
+@import 'componentes/categorias';
+@import 'componentes/resenas';
+@import 'componentes/publicidad';
+
+/// Estilos para el botón de menú hamburguesa
+///
+/// @group Navigation
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/// Estilos para la lista de navegación
+///
+/// @group Navigation
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+/// Estilos responsivos para pantallas pequeñas
+///
+/// @group Responsive
+@media (max-width: 768px) {
+  // Ajustes para la sección de productos
+  .products {
+    flex-direction: column;
+  }
+
+  // Ajustes para las tarjetas de producto
+  .product-card {
+    flex: 1 1 100%;
+  }
+
+  // Ajustes para el encabezado
+  header {
+    flex-direction: column;
+  }
+
+  // Ajustes para la lista de navegación dentro del encabezado
+  nav ul {
+    flex-direction: column;
+  }
+
+  // Mostrar el botón de menú hamburguesa en pantallas pequeñas
+  .hamburger {
+    display: block;
+  }
+
+  // Ajustes para la lista de navegación en pantallas pequeñas
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 80%;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  // Mostrar la lista de navegación cuando está abierta
+  .nav-list.open {
+    display: flex;
+  }
+
+  // Estilos para los elementos de la lista de navegación
+  .nav-list li {
+    border-bottom: 1px solid #ccc;
+  }
+
+  // Estilos para los enlaces dentro de la lista de navegación
+  .nav-list li a {
+    padding: 0.75rem;
+    display: block;
+    color: #333;
+    text-decoration: none;
+  }
+
+  // Estilos para los enlaces al pasar el ratón por encima
+  .nav-list li a:hover {
+    background-color: #f0f0f0;
+  }
+}

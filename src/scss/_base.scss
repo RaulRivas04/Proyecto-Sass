@@ -1,0 +1,42 @@
+@use 'variables';
+@use 'mixin';
+
+/// # Base
+/// Estilos generales para el cuerpo.
+///
+/// @group Base
+body {
+  font-family: variables.$font-family-primary;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+/// Estilos para el encabezado.
+///
+/// @group Base
+header {
+  height: variables.$header-height;
+  background-color: variables.$primary-color;
+  color: variables.get-color(white);
+  @include mixin.flex-center;
+}
+
+/// Estilos para la navegación.
+///
+/// @group Base
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: variables.get-color(white);
+  text-decoration: none;
+}

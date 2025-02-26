@@ -1,0 +1,68 @@
+@use '../variables';
+@use '../mixin';
+
+/// # Encabezado
+/// Estilos para el encabezado.
+///
+/// @group Header
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: variables.$primary-color;
+  color: variables.get-color(white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: variables.$spacing-unit * 0.5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  /// Estilos para el logo dentro del encabezado.
+  ///
+  /// @group Header
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 10px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+    .text {
+      font-size: 1.5rem;
+    }
+  }
+
+  /// Estilos para la navegación dentro del encabezado.
+  ///
+  /// @group Header
+  nav {
+    display: flex;
+    align-items: center;
+
+    ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin: 0 variables.$spacing-unit / 2;
+
+        a {
+          text-decoration: none;
+          color: inherit;
+          white-space: nowrap;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

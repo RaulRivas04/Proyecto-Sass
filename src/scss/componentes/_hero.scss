@@ -1,0 +1,55 @@
+/// # Hero
+/// Estilos para la sección hero.
+///
+/// @group Hero
+.hero {
+  @include hero;
+  background-image: url('../../img/inicio.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /// Estilos para el encabezado h2 dentro de la sección hero.
+  ///
+  /// @group Hero
+  h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: get-color(primary);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+
+  /// Estilos para el párrafo dentro de la sección hero.
+  ///
+  /// @group Hero
+  p {
+    font-size: 1.5em;
+    color: get-color(white);
+    margin-bottom: $spacing-unit * 2;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  }
+
+  /// Estilos para la sección de redes sociales dentro de la sección hero.
+  ///
+  /// @group Hero
+  .social-media {
+    margin-top: $spacing-unit * 2;
+
+    /// Estilos para los enlaces de redes sociales.
+    ///
+    /// @group Hero
+    a {
+      color: get-color(white);
+      font-size: 1.5em;
+      margin: 0 $spacing-unit;
+      transition: color 0.3s;
+
+      /// Estilos para el estado hover de los enlaces de redes sociales.
+      ///
+      /// @group Hero
+      &:hover {
+        color: get-color(accent);
+      }
+    }
+  }
+}

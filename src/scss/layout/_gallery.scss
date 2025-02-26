@@ -1,0 +1,28 @@
+/// # Galería
+/// Estilos para la galería.
+///
+/// @group Gallery
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: $spacing-unit * 2;
+  padding: $spacing-unit * 2;
+}
+
+/// Estilos para cada elemento de la galería.
+/// 
+/// @group Gallery
+.gallery-item {
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/// Estilos para las imágenes dentro de los elementos de la galería.
+/// 
+/// @group Gallery
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

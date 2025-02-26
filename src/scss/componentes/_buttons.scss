@@ -1,0 +1,46 @@
+/// # Botones
+/// Estilos para los botones primarios y secundarios, utilizando el mixin `button()`.
+///
+/// @group Buttons
+// Estilo para el botón principal
+.button {
+  @include button(primary);
+}
+
+/// Botón secundario con el mixin `button()`.
+/// 
+/// @group Buttons
+// Estilo para el botón secundario
+.button-secondary {
+  @include button(secondary);
+}
+
+/// # Tarjetas (Cards)
+/// Estilos base para las tarjetas, con bordes y sombras.
+///
+/// @group Cards
+// Estilo para la tarjeta
+.card {
+  border: 1px solid get-color(black);
+  padding: $spacing-unit * 2;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/// Tarjeta con estilo primario.
+/// 
+/// @group Cards
+// Estilo para la tarjeta principal
+.card-primary {
+  background-color: get-color(primary);
+  color: get-color(white);
+}
+
+/// Tarjeta con estilo secundario.
+/// 
+/// @group Cards
+// Estilo para la tarjeta secundaria
+.card-secondary {
+  background-color: get-color(secondary);
+  color: get-color(white);
+}

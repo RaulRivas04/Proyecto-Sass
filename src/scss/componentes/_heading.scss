@@ -1,0 +1,7 @@
+/// # Encabezados
+/// Estilos para los encabezados h1 y h2.
+///
+/// @group Headings
+h1, h2 {
+  @include section-title;
+}
