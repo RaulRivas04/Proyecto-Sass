@@ -1,4 +1,5 @@
 Documentación Final
+**Este texto estará en negrita**
 
 Paleta de colores
 Azul principal:
