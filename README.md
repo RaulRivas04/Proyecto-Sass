@@ -19,18 +19,24 @@ Color Blanco de fondo:
 `$background-color: #f5f5f5;`
 
 `$colors: (
-  primary: $primary-color,
+  `primary: $primary-color,`
+  
   secondary: $secondary-color,
+  
   accent: $accent-color,
+  
   white: #ffffff,
+  
   black: #000000,
+  
   background: $background-color
+  
   );`
 
 
 **Fuentes**
 1.	$font-family-primary: 'Arial, sans-serif';
-2.	$font-family-secondary: 'Georgia, serif';
+3.	$font-family-secondary: 'Georgia, serif';
 
 
 
