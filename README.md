@@ -18,20 +18,21 @@ Color Blanco de fondo:
 
 `$background-color: #f5f5f5;`
 
-`$colors: (
-  primary: $primary-color,
+`$colors: (`
+
+ ` primary: $primary-color,`
   
-  secondary: $secondary-color,
+  `secondary: $secondary-color,`
   
-  accent: $accent-color,
+  `accent: $accent-color,`
   
-  white: #ffffff,
+  `white: #ffffff,`
   
-  black: #000000,
+  `black: #000000,`
   
-  background: $background-color
+  `background: $background-color`
   
-  );`
+   `);`
 
 
 **Fuentes**
