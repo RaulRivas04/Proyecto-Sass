@@ -2,7 +2,7 @@
 
 **Paleta de colores**
 
-`Azul principal:
+`Azul principal:`
 
 $primary-color: #3498db;
 
@@ -26,7 +26,7 @@ $colors: (
   black: #000000,
   background: $background-color
   );
-`
+
 
 **Fuentes**
 1.	$font-family-primary: 'Arial, sans-serif';
