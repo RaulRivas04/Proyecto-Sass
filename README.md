@@ -2,7 +2,7 @@
 
 **Paleta de colores**
 
-```Azul principal:```
+``Azul principal:``
 
 $primary-color: #3498db;
 
