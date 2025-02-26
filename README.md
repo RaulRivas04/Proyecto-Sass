@@ -3,8 +3,10 @@
 
 
 **Paleta de colores**
+=================
 
-Azul principal:
+
+<u>Azul principal:</u>
 
 `$primary-color: #3498db;`
 
@@ -38,6 +40,8 @@ Color Blanco de fondo:
 
 
 **Fuentes**
+=================
+
 
 1.	$font-family-primary: 'Arial, sans-serif';
 3.	$font-family-secondary: 'Georgia, serif';
@@ -45,6 +49,8 @@ Color Blanco de fondo:
 
 
 **Iconos**
+=================
+
 
 Los iconos utilizados en el proyecto son de Font Awesome. Se incluyen en el archivo HTML principal:
 
@@ -53,6 +59,8 @@ Los iconos utilizados en el proyecto son de Font Awesome. Se incluyen en el arch
 
 
 **Elementos de Accesibilidad, Usabilidad y Experiencia de Usuario**
+=================
+
 
 **1.	Accesibilidad:**
 o	Uso de etiquetas aria-label para mejorar la accesibilidad de los botones de navegación.
@@ -69,6 +77,8 @@ o	Uso de colores contrastantes para mejorar la legibilidad.
 o	Secciones bien definidas y organizadas para facilitar la navegación.
 
 **Descripción de Archivos SCSS**
+=================
+
 
 **1.	_variables.scss:**
 o	Define las variables globales del proyecto, incluyendo colores, fuentes y tamaños.
@@ -117,11 +127,16 @@ o	Archivo principal que importa todos los archivos SCSS y define estilos adicion
 
 
 **Descripción de Archivos JavaScript**
+=================
+
 
 **1.	proyecto.js:**
 o	Contiene scripts para la funcionalidad del menú hamburguesa, la animación de las secciones y para abrir más información en los botones de “Abrir más”.
 
 
 **Descripción de Archivos HTML**
+=================
+
+
 **1.	index.html:**
 o	Archivo principal HTML que estructura el contenido del sitio web, incluyendo el encabezado, secciones de hero, categorías, productos, reseñas, publicidad y pie de página.
